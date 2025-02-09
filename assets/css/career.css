@@ -1,0 +1,72 @@
+.section-block {
+    margin-bottom: 3rem;
+}
+
+.section-block h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0077CC;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.section-block h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.section-list {
+    margin-bottom: 2rem;
+}
+
+.section-header {
+    display: grid;
+    grid-template-columns: minmax(12rem, auto) 1fr;
+    margin-bottom: 0.5rem;
+    gap: 1rem;
+}
+
+.section-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-date code {
+    background-color: white;
+}
+
+.section-information {
+    display: grid;
+    grid-template-columns: minmax(12rem, auto) 1fr;
+}
+
+.section-information p,
+.section-information a,
+.section-information ul {
+    color: #0077CC;
+}
+
+.section-sublist {
+    list-style: inside;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-sublist-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.card-header {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+    .section-header {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "meta": {
+        "theme": "lucide"
+    },
+    "basics": {
+        "name": "Clément Cauet",
+        "phone": "+33 6 01 05 54 09",
+        "label": "Développeur d'application",
+        "picture": "https://avatars.githubusercontent.com/u/70692830?s=400&u=cac932fa74c596fc7d2f7bed91e8a25f97ebc78e&v=4",
+        "summary": "Motivé par la création de solutions techniques qui facilitent la vie des utilisateurs, je combine autonomie, adaptabilité et esprit d’analyse pour relever des défis complexes. Mon objectif : concevoir des outils performants et intuitifs, toujours centrés sur les besoins réels.",
+        "website": "https://clement-cauet.github.io/",
+        "url": "https://clement-cauet.github.io/",
+        "email": "cauet.clement@gmail.com",
+        "location": {
+            "city": "Amiens",
+            "countryCode": "FR"
+        },
+        "profiles": [
+            {
+                "username": "cauet-clement",
+                "url": "https://www.linkedin.com/in/cauet-clement/",
+                "network": "linkedin"
+            },
+            {
+                "username": "Clement-Cauet",
+                "url": "https://github.com/Clement-Cauet",
+                "network": "github"
+            }
+        ]
+    },
+    "education": [
+        {
+            "website": "https://www.unilasalle-amiens.fr/",
+            "area": "Numérique et Objets connectés",
+            "institution": "UniLaSalle",
+            "location": "Amiens",
+            "studyType": "Ingénieur",
+            "startDate": "2022-09-24",
+            "endDate": "2025-04-11"
+        },
+        {
+            "website": "https://www.la-providence.net/fr",
+            "area": "Systèmes Numériques",
+            "institution": "La Providence",
+            "location": "Amiens",
+            "studyType": "Brevet de Technicien Supérieur",
+            "startDate": "2020-09-05",
+            "endDate": "2022-06-23"
+        }
+    ],
+    "skills": [
+        {
+            "keywords": [
+                "Java",
+                "Kotlin",
+                "C++",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "TypeScript",
+                "Python",
+                "SQL"
+            ],
+            "name": "Programmation"
+        },
+        {
+            "keywords": [
+                "React",
+                "React Native",
+                "Angular",
+                "Node.js",
+                "Jetpack Compose"
+            ],
+            "name": "Framework"
+        },
+        {
+            "keywords": [
+                "MySQL",
+                "PostgreSQL",
+                "SQLite",
+                "Firebase",
+                "MongoDB"
+            ],
+            "name": "Base de données"
+        },
+        {
+            "keywords": [
+                "Docker",
+                "VirtualBox",
+                "VMware",
+                "Proxmox"
+            ],
+            "name": "Virtualisation"
+        },
+        {
+            "keywords": [
+                "Windows",
+                "Fedora",
+                "Debian",
+                "Ubuntu"
+            ],
+            "name": "Système d'exploitation"
+        },
+        {
+            "keywords": [
+                "Git",
+                "Ansible",
+                "Terraform"
+            ],
+            "name": "Système de gestion"
+        },
+        {
+            "keywords": [
+                "Résolution de problèmes",
+                "Adaptabilité",
+                "Autonomie",
+                "Esprit d'équipe",
+                "Gestion du temps et des priorités"
+            ],
+            "name": "Soft Skills"
+        }
+    ],
+    "work": [
+        {
+            "website": "https://generation-ia.com/",
+            "name": "Génération-IA",
+            "location": "Boves",
+            "position": "Alternant - Développeur Mobile",
+            "startDate": "2022-08-28",
+            "endDate": "2025-08-29",
+            "highlights": [
+                "Dévolopper une application mobile axée sur l'amélioration de la performance professionnelle.",
+                "Concevoir des architectures de serveurs API robustes, facilitant des échanges fluides entre diverses applications.",
+                "Optimiser des processus de développement, améliorant l'efficacité d'initialisation et la maintenabilité du projet.",
+                "Faciliter la documentation technique de l'application, assurant une compréhension claire et un accès facile pour les membres de l'équipe."
+            ]
+        },
+        {
+            "website": "https://www.croix-rouge.fr/unite-locale-du-grand-amienois",
+            "name": "Croix Rouge Française",
+            "location": "Amiens",
+            "position": "Stagiaire - Développeur Web",
+            "startDate": "2021-05-21",
+            "endDate": "2021-06-30",
+            "highlights": [
+                "Concevoir et déployer des outils de suivi des stocks, améliorant la logistique au sein de l'unité locale.",
+                "Coordonner l'approvisionnement de besoins d'urgence."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Français",
+            "fluency": "Natif"
+        },
+        {
+            "language": "Anglais",
+            "fluency": "Courant / B2"
+        }
+    ],
+    "interests": [
+        {
+            "keywords": [
+                "Open Source",
+                "Natation",
+                "Randonnée",
+                "Secourisme"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Thème Lucide - JsonResume",
+            "startDate": "2025-01-24",
+            "endDate": "2025-02-09",
+            "highlights": [
+                "Concevoir un thème de CV en HTML/CSS/JS.",
+                "Intégrer le thème Lucide au projet JsonResume."
+            ],
+            "url": "https://github.com/Clement-Cauet/jsonresume-theme-lucide"
+        },
+        {
+            "name": "FakeStore",
+            "startDate": "2025-01-06",
+            "endDate": "2025-01-21",
+            "highlights": [
+                "Développer une application mobile e-commerce en Kotlin avec Jetpack Compose.",
+                "Exploiter une API REST pour récupérer des données de produits."
+            ],
+            "url": "https://github.com/Clement-Cauet/FakeStore"
+        },
+        {
+            "name": "Navigateur-Web",
+            "startDate": "2024-09-27",
+            "endDate": "2024-11-08",
+            "highlights": [
+                "Développer un navigateur web basé sur Chromium en Angular.",
+                "Intégrer un bloqueur de publicités reposant sur une base de données open source."
+            ],
+            "url": "https://github.com/Gregory-febvin/Navigateur-Web"
+        }
+    ]
+}

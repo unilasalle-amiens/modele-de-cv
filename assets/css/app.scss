@@ -6,15 +6,115 @@
 }
 
 $family-primary: "Indivisa Text Sans-Regular",sans-serif;
-$primary: #ef2e31;
-$link: #ef2e31;
-// Import Main CSS file from theme
+$primary: #0077CC;
+$secondary: #0055AA;
+$font-color-primary: #333333;
+$font-color-secondary: #F7F7F7;
+$background-color: #F7F7F7;
+$link: $primary;
+
 @import "main";
+
+code {
+    color: var(--bulma-body-color);
+}
+
+.navbar {
+    box-shadow: 0 0.3125rem 1.25rem 0 rgba(0,0,0,0.36);
+}
 
 .navbar-item img {
     max-height: 2.75rem;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    max-height: calc(100vh - 8rem);
+    top: 6rem;
+    background-color: white;
+    text-transform: uppercase;
+    gap: 2rem;
+
+    button {
+        color: white;
+        background-color: $primary;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        width: 80%;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: $secondary;
+    }
+}
+
 .menu-label {
     font-size : 1em;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    overflow-y: auto;
+
+    li {
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+
+        a:hover {
+            color: $primary;
+        }
+    }
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons .icon {
+    color: $primary;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons .icon:hover {
+    color: $secondary;
+}
+
+.profile-picture {
+    border: $primary 1px solid;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 769px) {
+    .sidebar {
+        top: 3rem;
+        z-index: 1;
+
+        button {
+            align-self: center;
+        }
+    }
+
+    .menu-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+
+    li:last-child {
+        margin-right: 0;
+    }
+    
 }

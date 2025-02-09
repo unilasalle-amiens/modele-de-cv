@@ -1,13 +1,13 @@
 - label: Mon parcours
   items:
+    - name: Expériences Professionnelles
+      link: /parcours#experiences
+    - name: Compétences
+      link: /parcours#skills
     - name: Formation
       link: /parcours#formation
-    - name: Expériences
-      link: /parcours#expériences
-    - name: Compétences
-      link: /parcours#compétences
-    - name: Centres d’intérêt
-      link: /parcours#centres-dintérêt
+    - name: Langues
+      link: /parcours#languages
 # - label: Second Menu Label
 #   items:
 #     - name: Parent Item

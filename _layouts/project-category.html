@@ -1,0 +1,37 @@
+---
+layout: default
+show_sidebar: false
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project.css">
+<div class="columns is-multiline">
+    <div class="column is-12">
+        {{ page.content }}
+    </div>
+
+    {% for project in site.data.project %}
+    <div class="column is-4-desktop is-6-tablet">
+        <div class="card" data-url="{{ project.url }}" data-name="{{ project.name }}" {% if project.logo %}data-logo="{{ project.logo }}" {% endif %}>
+            <a href="#" class="project-link">
+                {% if project.logo %}
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="" alt="" class="project-logo">
+                    </figure>
+                </div>
+                {% endif %}
+            </a>
+            <div class="card-content">
+                <div class="card-title">
+                    <h2 class="title is-4">{{ project.name }}</h2>
+                    <a href="{{ project.url }}" target="_blank" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="topics"></div>
+            </div>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+<script src="{{ site.baseurl }}/assets/js/project-category.js" type="text/javascript"></script>

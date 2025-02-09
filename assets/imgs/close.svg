@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="500" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <defs>
+        <clipPath id="id1">
+            <path d="M 36 36 L 339 36 L 339 339 L 36 339 Z M 36 36 " clip-rule="nonzero"/>
+        </clipPath>
+        <clipPath id="id2">
+            <path d="M 182.65625 -55.425781 L 430.320312 192.238281 L 192.203125 430.359375 L -55.460938 182.695312 Z M 182.65625 -55.425781 " clip-rule="nonzero"/>
+        </clipPath>
+        <clipPath id="id3">
+            <path d="M 182.65625 -55.425781 L 430.320312 192.238281 L 192.203125 430.359375 L -55.460938 182.695312 Z M 182.65625 -55.425781 " clip-rule="nonzero"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#id1)">
+        <g clip-path="url(#id2)">
+            <g clip-path="url(#id3)">
+                <path fill="#000000" d="M 338.5625 284.015625 L 242.019531 187.472656 L 333.777344 95.714844 L 279.226562 41.164062 L 187.46875 132.921875 L 90.925781 36.378906 L 36.34375 90.960938 L 132.886719 187.503906 L 41.128906 279.261719 L 95.679688 333.8125 L 187.4375 242.054688 L 283.980469 338.597656 Z M 338.5625 284.015625 " fill-opacity="1" fill-rule="nonzero"/>
+            </g>
+        </g>
+    </g>
+</svg>

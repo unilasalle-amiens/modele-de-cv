@@ -1,9 +1,9 @@
+- name : Accueil
+  link: /
 - name: Mon parcours
   link: /parcours/
 - name: Mes réalisations
   link: /realisations/
-# - name: Blog
-#   link: /blog/
-#   dropdown: 
-#     - name: Page 2
-#       link: /page-2/
+  dropdown:
+    - name: Exemple
+      link: /example

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "FakeStore",
+        "logo": "https://fakestoreapi.com/icons/logo.png",
+        "url": "https://github.com/Clement-Cauet/FakeStore"
+    },
+    {
+        "name": "UniVbox",
+        "logo": "https://github.com/user-attachments/assets/679388be-6290-40c6-87f0-8f9ea3e4c2bf",
+        "url": "https://github.com/Clement-Cauet/UniVbox"
+    },
+    {
+        "name": "JsonResume",
+        "logo": "https://avatars.githubusercontent.com/u/7943272?s=200&v=4",
+        "url": "https://github.com/Clement-Cauet/jsonresume-theme-lucide"
+    },
+    {
+        "name": "ClimbSense",
+        "logo": "https://github.com/user-attachments/assets/720f6cf6-b5f4-4788-bd81-ae4d1ba1e9ba",
+        "url": "https://github.com/Clement-Cauet/ClimbSense"
+    },
+    {
+        "name": "Navigateur-Web",
+        "logo": "https://github.com/user-attachments/assets/1f153cca-9730-4c3a-91db-5dee1133148e",
+        "url": "https://github.com/Gregory-febvin/Navigateur-Web"
+    },
+    {
+        "name": "SFM-Hell",
+        "logo": "https://github.com/user-attachments/assets/35ab9b51-1817-4228-ae23-069201b7aaf5",
+        "url": "https://github.com/Gregory-febvin/SFM-Hell"
+    },
+    {
+        "name": "SpaceKuukan",
+        "logo": "https://github.com/user-attachments/assets/5923e73a-835d-4b0a-b65d-a51ce840246d",
+        "url": "https://github.com/Clement-Cauet/SpaceKuukan"
+    }
+]

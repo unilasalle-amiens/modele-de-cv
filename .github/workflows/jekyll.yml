@@ -29,26 +29,40 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1 # v1.161.0
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      # Generate resume
+      - name: Install resume-cli
+        run: npm install -g resume-cli
+      - name: Install jsonresume-theme-lucide
+        run: npm install jsonresume-theme-lucide
+      - name: Ensure assets/pdf directory exists
+        run: mkdir -p assets/pdf
+      - name: Generate resume
+        run: resume export assets/pdf/resume.pdf --resume assets/json/resume.json --theme lucide --format pdf
+      
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      # Automatically uploads an artifact from the './_site' directory by default
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job

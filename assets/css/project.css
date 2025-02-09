@@ -1,0 +1,27 @@
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.image.is-4by3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title a {
+    color: black;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+    padding: 0.5rem;
+}
