@@ -8,7 +8,7 @@ show_sidebar: false
     </div>
 
     {% if page.collection %}
-        {% assign sorted_products = site.[page.collection] | sort: page.sort %}
+        {% assign sorted_products = site[page.collection] | sort: page.sort %}
     {% else %}
         {% assign sorted_products = site.products | sort: page.sort %}
     {% endif %}
@@ -44,19 +44,16 @@ show_sidebar: false
     </div>
     {% endfor %}
 
-
     {% for markdown in page.markdowns %}
     <div class="column is-4-desktop is-6-tablet">
         <a href="{{ markdown | relative_url }}">
             <div class="card">
                 {% capture mdurl %}
-                    {% remote_include {{ markdown }} %}
+                    {% remote_include markdown %} 
                 {% endcapture %}
                 {{ mdurl | strip | markdownify }}
             </div>
         </a>
     </div>
     {% endfor %}
-
-
 </div>
