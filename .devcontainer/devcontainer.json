@@ -1,33 +1,33 @@
 {
   "name": "Portfolio UniLaSalle Amiens",
-  "image": "mcr.microsoft.com/devcontainers/ruby:3",
-
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.3-bookworm",
   "onCreateCommand": "bundle install",
-  "postStartCommand": "bundle exec jekyll serve --livereload",
+  "postStartCommand": "bundle exec jekyll serve --port 4000 --livereload --host 0.0.0.0 --incremental --force_polling",
 
   "customizations": {
     "vscode": {
       "extensions": [
         // --- JEKYLL ---
-        "ginfuru.ginfuru-vscode-jekyll-syntax", // Coloration syntaxique Jekyll/Liquid
-        "ginfuru.vscode-jekyll-snippets",       // Raccourcis pour les balises Liquid (for, if, etc.)
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "ginfuru.vscode-jekyll-snippets",
         
         // --- ÉDITION MARKDOWN ---
-        "yzhang.markdown-all-in-one",          // Raccourcis clavier (gras, listes) et table des matières
-        "DavidAnson.vscode-markdownlint",       // Guide l'étudiant pour écrire un Markdown propre
-        "shaneharper.markdown-table-formatter", // Aligne les tableaux automatiquement (très utile !)
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "shaneharper.markdown-table-formatter",
         
         // --- OUTILS DE CONFORT ---
-        "streetsidesoftware.code-spell-checker", // Évite les fautes de frappe (anglais/français)
-        "christian-kohler.path-intellisense",    // Auto-complétion des chemins d'images/fichiers
-        "eamodio.gitlens"                        // Pour voir qui a modifié quoi (pédagogique)
+        "streetsidesoftware.code-spell-checker",
+        "christian-kohler.path-intellisense",
+        "eamodio.gitlens"
       ],
       "settings": {
         "editor.formatOnSave": true,
-        "editor.wordWrap": "on",                // Évite le défilement horizontal en Markdown
+        "editor.wordWrap": "on",
         "markdownlint.config": {
-            "MD013": false                      // Désactive la limite de longueur de ligne
-        }
+            "MD013": false
+        },
+        "cSpell.language": "en,fr"
       }
     }
   },
@@ -39,4 +39,3 @@
       "onAutoForward": "openBrowser"
     }
   }
-}
