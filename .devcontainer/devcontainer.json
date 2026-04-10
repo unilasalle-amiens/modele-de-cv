@@ -1,6 +1,12 @@
 {
   "name": "Portfolio UniLaSalle Amiens",
   "image": "mcr.microsoft.com/devcontainers/ruby:3.3-bookworm",
+  
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  },
+  
   "onCreateCommand": "bundle install",
   "postStartCommand": "bundle exec jekyll serve --port 4000 --livereload --host 0.0.0.0 --incremental --force_polling",
 
