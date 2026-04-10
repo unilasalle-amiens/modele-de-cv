@@ -21,4 +21,14 @@ collections:
 
 plugins:
   - jekyll-remote-include
-
+  
+exclude:
+  - node_modules/
+  - vendor/
+  - .bundle/
+  - .jekyll-cache/
+  - .devcontainer/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
