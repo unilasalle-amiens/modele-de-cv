@@ -4,7 +4,7 @@ Template pour la création d'un CV type projet pour le MakerSpace. Ce template u
 
 ### Comment Utiliser ce Repository ?
 
-- Modifiez les fichiers [index.md](index.md) (pour la page d'accueil), [parcours.md](parcours.md) (pour mon parcours) et les fichiers du dossier [_projets](_projets) (pour vos réalisations)
+- Modifiez les fichiers [index.md](index.md) (pour la page d'accueil), [parcours.md](parcours.md) (pour mon parcours) et les fichiers du dossier [_products](_products) (pour vos réalisations)
 - La génération du site correspondant se réalise automatiquement au moyen des [actions github](https://github.com/unilasalle-amiens/modele-de-cv/actions) et se déploie sur une [page github](https://github.com/unilasalle-amiens/modele-de-cv/settings/pages).
 - En cas de problème, ou pour personnaliser votre CV, la documentation du projet est disponible à cette [adresse](https://www.csrhymes.com/bulma-clean-theme/docs/).
 
