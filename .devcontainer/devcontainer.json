@@ -1,27 +1,22 @@
 {
   "name": "Portfolio UniLaSalle Amiens",
   "image": "mcr.microsoft.com/devcontainers/ruby:3.3-bookworm",
-  
   "hostRequirements": {
     "cpus": 4,
     "memory": "8gb"
   },
-  
   "onCreateCommand": "bundle install",
-  "postStartCommand": "bundle exec jekyll serve --port 4000 --livereload --host 0.0.0.0 --incremental --force_polling",
-
+  "postStartCommand": "bundle exec jekyll serve",
   "customizations": {
     "vscode": {
       "extensions": [
         // --- JEKYLL ---
         "ginfuru.ginfuru-vscode-jekyll-syntax",
         "ginfuru.vscode-jekyll-snippets",
-        
         // --- ÉDITION MARKDOWN ---
         "yzhang.markdown-all-in-one",
         "DavidAnson.vscode-markdownlint",
         "shaneharper.markdown-table-formatter",
-        
         // --- OUTILS DE CONFORT ---
         "streetsidesoftware.code-spell-checker",
         "christian-kohler.path-intellisense",
@@ -31,14 +26,15 @@
         "editor.formatOnSave": true,
         "editor.wordWrap": "on",
         "markdownlint.config": {
-            "MD013": false
+          "MD013": false
         },
         "cSpell.language": "en,fr"
       }
     }
   },
-
-  "forwardPorts": [4000],
+  "forwardPorts": [
+    4000
+  ],
   "portsAttributes": {
     "4000": {
       "label": "Aperçu du site",
